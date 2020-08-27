@@ -1,39 +1,79 @@
 body {
-    font-family: Cinzel, serif;
-    font-size: 16px
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+    box-sizing: border-box;
 }
 a {
     text-decoration-line: none;
-    list-style-type: disc;
-    padding: 5px;
+    padding: 10px;
     font-size: 1.15rem;
     font-weight: 600;
     line-height: 1.25;
-    color: white
+    color: white;
 }
 a:hover{
     font-size: 2rem;
     transition: all 500ms ease-out 250ms;
 }
 .head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-image: url('backdeck.jpeg');
-    background-color: blue;
-    background-size: cover;
+    background-color: rgba(254, 254, 255, 0.288);
+    background-size: 100% auto;
     background-repeat: no-repeat;
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    flex: 1 3 600px;
-    justify-content: start;
     top: 0;
-    left:0;
-    height: 100%;
+    left: 0;
     width: 100%;
+    height: 100%;
+    z-index: 1;
 }
+.navbar {
+    width: 100%;
+    height: 50px;
+}
+
 .head h1 {
-    position: absolute;
-    top: 30%;
-    left: 30%;
+    margin-bottom: 40%;
+    margin-left: 60%;
     color: white;
-    font-size: 5.5rem;
+    font-size: 7.5rem;
+    letter-spacing: 3px;
+    border: 2px black solid;
+}
+.navbarweb {
+    display: none;
+}
+@media only screen and (min-width: 300px) and (max-width: 1100px) {
+    .head {
+        background-image: cover;
+        width: 100%;
+        height: 70%;
+        top: 6%;
+    }
+    .head h1 {
+        font-size: 5rem;
+        margin-top: 35%;
+        margin-left: 45%;
+    }
+    .navbar {
+    display: none;
+    }
+    .navbarweb {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 6%;
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+ }
+  i {
+      color: black;
+  }
 }
