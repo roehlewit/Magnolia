@@ -138,22 +138,4 @@ img {
     .main {
         margin-top: 20%;
     }
-    .gallery {
-        width: 110%;
-    }
-    .gallery img {
-        width: 45%;
-    }
-    .galtext a {
-        width: 65%;
-        margin: 2rem;
-        font-size: 4rem;
-    }
-    .sertext p {
-        margin: 7rem;
-        font-size: 2rem;
-    }
-    .sertext img {
-        width: 100%;
-    }
 }
