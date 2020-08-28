@@ -137,5 +137,11 @@ img {
     }
     .main {
         margin-top: 20%;
+    } 
+    .gallery img {
+        height: 70%;
+    }
+    .services img {
+        height: 70%;
     }
 }
