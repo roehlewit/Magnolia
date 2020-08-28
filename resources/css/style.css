@@ -75,6 +75,8 @@ img {
         bottom: 20%;
     }
     .head img {
+        width: 100%;
+        height: auto;
         opacity: .7;
     }
     .navbar a {
