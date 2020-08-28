@@ -63,6 +63,8 @@ img {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
+    height: auto;
+    margin-top: -3%;
 }
 .gallery img {
     width: 35%;
@@ -72,7 +74,7 @@ img {
     width: 65%;
     align-self: center;
     text-align: end;
-    padding: 1%;
+    padding: 6%;
 }
 .galtext a {
     color: white;
@@ -93,10 +95,10 @@ img {
     height: 100%;
     align-self: center;
 }
-.sertext a {
+.sertext p {
     font-size: 3rem;
     font-weight: 100;
-    margin-left: 40%;
+    margin-left: 25%;
 }
 .navbarweb {
     display: none;
@@ -138,17 +140,17 @@ img {
     }
     .gallery {
         width: 110%;
-        margin: 0 -1%;
     }
     .gallery img {
-        width: 100%;
+        width: 45%;
         height: auto;
     }
-    .galtext a{
+    .galtext a {
+        width: 65%;
         margin: 2rem;
         font-size: 4rem;
     }
-    .sertext a {
+    .sertext p {
         margin: 7rem;
         font-size: 2rem;
     }
