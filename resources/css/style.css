@@ -2,6 +2,7 @@ body {
     font-family: "Cinzel", serif;
     font-size: 16px;
     background-color:black;
+    width: 100%;
 }
 a {
     text-decoration-line: none;
@@ -18,10 +19,13 @@ a:hover{
 img {
     width: 100%;
 }
-
 .head {
     display: flex;
     width: 100%;
+}
+.img {
+    width: 100%;
+    height: auto;
 }
 .navbar {
     display: flex;
@@ -40,17 +44,14 @@ img {
     color: white;
     font-size: 15rem;
     letter-spacing: 3px;
-   
 }
 /* Main body */
 .main {
     display: flex;
     width: 100%;
-    border: 4px orange solid;
 }
 .title {
     width: 40%;
-    border: 2px green solid;
 }
 .list {
     width: 60%;
@@ -62,7 +63,6 @@ img {
     color: white;
     list-style-type: none;
     font-size: 2rem;
-    border: 2px green solid;
 }
 .navbarweb {
     display: none;
@@ -89,7 +89,7 @@ img {
     align-items: center;
     top: 0;
     left: 0;
-    height: 8%;
+    height: 9%;
     width: 100%;
     background-color: white;
     z-index: 3;
