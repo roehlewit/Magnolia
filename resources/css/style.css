@@ -80,7 +80,9 @@ img {
 .galtext a {
     color: white;
     align-self: center;
+    font-weight: 100;
     font-size: 6rem;
+    letter-spacing: 1rem;
 }
 .services {
     display: flex;
