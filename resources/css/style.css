@@ -65,17 +65,19 @@ img {
     width: 100%;
 }
 .gallery img {
-    width: 45%;
-    margin-top: -5%;
+    width: 35%;
+    height: auto;
 }
 .galtext {
+    width: 65%;
     align-self: center;
+    text-align: end;
+    padding: 1%;
 }
 .galtext a {
     color: white;
     align-self: center;
     font-size: 6rem;
-    margin-top: 11rem;
 }
 .services {
     display: flex;
@@ -93,6 +95,7 @@ img {
 }
 .sertext a {
     font-size: 3rem;
+    font-weight: 100;
     margin-left: 40%;
 }
 .navbarweb {
@@ -137,6 +140,10 @@ img {
         width: 110%;
         margin: 0 -1%;
     }
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
     .galtext a{
         margin: 2rem;
         font-size: 4rem;
@@ -144,5 +151,9 @@ img {
     .sertext a {
         margin: 7rem;
         font-size: 2rem;
+    }
+    .sertext img {
+        width: 100%;
+        height: auto;
     }
 }
