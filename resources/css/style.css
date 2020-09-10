@@ -101,10 +101,9 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     flex: 1 1 100%;
-    margin: auto;
 }
 .alex p {
-    
+    margin: 0;
     padding: 30px;
 }
 
@@ -172,8 +171,8 @@ a:hover {
         width: 80%;
     }
     .alexp {
+        margin: 0;
         font-size: .9rem;
-        border: red solid;
     }
     .service-box {
         flex-wrap: wrap;
