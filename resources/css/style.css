@@ -61,7 +61,7 @@ a:hover {
     margin:0;
 }
 .slideshow {
-    background-image: url("/resources/images/backdeck.jpeg");
+    background-image: url("../images/backdeck.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
