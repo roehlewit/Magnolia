@@ -194,6 +194,9 @@ a:hover {
         order: 1;
         text-align: center;
     }
+    .magname h1 {
+        font-size: 4rem;
+    }
     .social {
         order: 3;
         flex: 1 0 100%;
@@ -226,7 +229,8 @@ a:hover {
         flex: 1 0 100%;
     }
     .about img {
-       flex-basis: 100%;
+       width: 100%;
+       height: auto;
     }
     .alex {
         flex: 1 1 70%;
