@@ -92,7 +92,7 @@ a:hover {
 
 /* About Alex */
 .about {
-    background-image: url("/resources/images/alex.jpeg");
+    background-image: url("../images/alex.jpeg");
     background-position: right center;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -220,7 +220,7 @@ a:hover {
         font-size: 2rem;
     }
     .aleximg-sm {
-        background-image: url("/resources/images/alex.jpeg");
+        background-image: url("../images/alex.jpeg");
         background-position: right center;
         background-size: 100%;
         background-repeat: no-repeat;
