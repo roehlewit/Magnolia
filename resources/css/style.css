@@ -114,7 +114,7 @@ a:hover {
 /* Services Section */
 
 .services-bg {
-    background-image: url("/resources/images/Ctablefront.jpeg");
+    background-image: url("../images/Ctablefront.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
