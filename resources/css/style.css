@@ -92,24 +92,20 @@ a:hover {
 
 /* About Alex */
 .about {
-    display: flex;
+    background-image: url("/resources/images/alex.jpeg");
+    background-position: right center;
+    background-size: 40%;
+    background-repeat: no-repeat;
     background-color: black;
-    margin: 0;
-}
-.about img {
-    flex: 1;
-    width: 40%;
-    height: auto;
-    padding: 20px;
+    height: 200%;
 }
 .alex {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
     box-sizing: border-box;
-    flex-basis: 40%;
-    margin-right: 30px;
+    margin: 30px;
+    flex-basis: 50%;
+    border: red solid;
 }
 /* Services Section */
 
@@ -211,7 +207,7 @@ a:hover {
     .slideshow {
         background-size: cover;
         height: 250px;
-        width: 100%;
+        width: auto;
         overflow-x: hidden;
     }
     .menu {
@@ -223,14 +219,17 @@ a:hover {
         margin: 2% 5%;
         font-size: 2rem;
     }
-    .about {
-        display: flex;
-        flex-wrap: wrap;
-        flex: 1 0 100%;
+    .aleximg-sm {
+        background-image: url("/resources/images/alex.jpeg");
+        background-position: right center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 350px;
+        width: auto;
+        margin-top: 10px;
     }
-    .about img {
-       width: 100%;
-       height: auto;
+    .about {
+        background-image: none;
     }
     .alex {
         flex: 1 1 100%;
