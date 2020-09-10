@@ -61,7 +61,7 @@ a:hover {
     margin:0;
 }
 .slideshow {
-    background-image: url("/resources/images/backdeck.jpeg");
+    background-image: url("../images/backdeck.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -114,7 +114,7 @@ a:hover {
 /* Services Section */
 
 .services-bg {
-    background-image: url("/resources/images/Ctablefront.jpeg");
+    background-image: url("../images/Ctablefront.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,7 +233,7 @@ a:hover {
        height: auto;
     }
     .alex {
-        flex: 1 1 70%;
+        flex: 1 1 100%;
         margin-left: 20px;
     }
     .alexp {
