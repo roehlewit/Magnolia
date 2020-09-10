@@ -48,8 +48,7 @@ a:hover {
     flex: 1 0 80%;
     align-items: center;
 }
-.magname > *,
-.contact > * {
+.magname > * {
     margin: 0;
 }
 .social {
@@ -77,12 +76,10 @@ a:hover {
     flex: 1 0 100%;
     justify-content: space-around;
     background-color: black;
-    padding-top: 10px;
 }
 .menu > * {
     flex-basis: 20%;
     text-align: center;
-    margin: 10px;
     padding: 10px;
     font-size: 3rem;
     background-color: rgba(22, 18, 18, 0.925);
@@ -92,20 +89,25 @@ a:hover {
 
 /* About Alex */
 .about {
-    background-image: url("../images/alex.jpeg");
-    background-position: right center;
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-color: black;
-    height: 200%;
+    display: flex;
+}
+.aleximg-sm img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 .alex {
     display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    margin: 30px;
-    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 100%;
+    margin: auto;
 }
+.alex p {
+    
+    padding: 30px;
+}
+
 /* Services Section */
 
 .services-bg {
@@ -166,12 +168,12 @@ a:hover {
         font-size: 2rem;
         padding: 10px;
     }
-    .about {
-        display: flex;
+    .aleximg-sm  {
+        width: 80%;
     }
     .alexp {
-        align-items: center;
         font-size: .9rem;
+        border: red solid;
     }
     .service-box {
         flex-wrap: wrap;
@@ -218,17 +220,14 @@ a:hover {
         margin: 2% 5%;
         font-size: 2rem;
     }
-    .aleximg-sm {
-        background-image: url("../images/alex.jpeg");
-        background-position: right center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 350px;
-        width: auto;
-        margin-top: 10px;
-    }
     .about {
+        display: flex;
+        flex-direction: column;
         background-image: none;
+    }
+    .aleximg-sm img {
+        display: block;
+        margin-top: 10px;
     }
     .alex {
         flex: 1 1 100%;
@@ -236,6 +235,8 @@ a:hover {
     }
     .alexp {
         font-size: 1rem;
+        margin: 0;
+        padding: 0;
     }
     .services h1 {
         font-size: 5rem;
