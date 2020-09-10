@@ -14,6 +14,7 @@ body {
     line-height: 1.15;
     letter-spacing: 3px;
     color: rgba(255, 255, 255, 0.801);
+    overflow-x: hidden;
 }
 h1 { 
     font-size: 5rem;
@@ -164,7 +165,7 @@ a:hover {
     }
     .slideshow {
         background-size: contain;   
-        height: 650px;
+        height: 550px;
     }
     .menu a {
         font-size: 2rem;
@@ -208,12 +209,11 @@ a:hover {
         background-size: cover;
         height: 250px;
         width: 100%;
-        border: red solid;
+        overflow-x: hidden;
     }
     .menu {
         display: flex;
         flex-wrap: wrap;
-        margin-top: -10px;
     }
     .menu > * {
         flex: 1 0 70%;
@@ -226,10 +226,11 @@ a:hover {
         flex: 1 0 100%;
     }
     .about img {
-       flex-basis: 50%;
+       flex-basis: 100%;
     }
     .alex {
-        flex: 1;
+        flex: 1 1 70%;
+        margin-left: 20px;
     }
     .alexp {
         font-size: 1rem;
