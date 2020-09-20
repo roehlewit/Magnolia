@@ -90,13 +90,19 @@ a:hover {
 /* About Alex */
 .about {
     display: flex;
+    margin: 40px;
 }
-.aleximg-sm img {
+.aleximg-sm {
+    background-image: url("../images/alex.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
     display: block;
     background-color: black;
-    width: 100%;
-    height: auto;
 }
+
 .alex {
     display: flex;
     flex-direction: column;
@@ -104,9 +110,9 @@ a:hover {
     flex: 1 1 100%;
 }
 .alex p {
-    margin: 0;
-    padding: 30px;
+    margin: 5px 30px;
 }
+
 
 /* Services Section */
 
