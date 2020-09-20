@@ -1,0 +1,23 @@
+.gallery-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 2 100px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    max-width: 1500px;
+}
+.gallery-boxes img{
+    height: 300px;
+    width: 400px;
+}
+.gallery-boxes .cycle-slideshow{
+    position: relative;
+    box-sizing: border-box;
+    margin: 20px;
+}
+.gallery-boxes .cycle-overlay{
+    box-sizing: border-box;
+    width: 400px;
+}
