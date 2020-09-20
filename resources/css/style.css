@@ -175,12 +175,6 @@ a:hover {
     height: 40px;
     font-family:"Cinzel", serif;
 }
-.galleryName a:visited{
-    color: rgba(22, 18, 18, 0.925);
-}
-.galleryName a:active{
-    color: rgba(22, 18, 18, 0.925);
-}
 .gallery-boxes {
     display: flex;
     flex-wrap: wrap;
@@ -195,6 +189,22 @@ a:hover {
     flex: 1 2 200px;
     margin: 20px;
 }
+.cycle-slideshow {position: relative;}
+.cycle-caption { position: absolute; color: white; bottom: 15px; right: 15px; z-index: 700; }
+
+
+/* overlay */
+.cycle-overlay { 
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    z-index: 600;
+    background: black; 
+    color: white; 
+    padding: 15px; 
+    opacity: .5;
+}
+
 
 /* Media Queries */
 @media screen and (min-width: 768px) and (max-width: 1350px) {
